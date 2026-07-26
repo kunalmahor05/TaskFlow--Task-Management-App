@@ -13,7 +13,7 @@ const app = express();
 
 app.use(cors({
     origin: [
-        "https://harsh-taskflow.vercel.app",
+        "https://task-flow-task-management-app-two.vercel.app",
         "http://localhost:5173"
     ],
 }));

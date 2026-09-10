@@ -50,7 +50,7 @@ TaskFlow is a full-stack task management web application built with the **MERN s
 
 ```text
 TaskFlow/
-├── client/
+├── Frontend/
 │   ├── src/
 │   │   ├── components/
 │   │   ├── pages/
@@ -58,7 +58,7 @@ TaskFlow/
 │   │   └── ...
 │   └── package.json
 │
-├── server/
+├── backend/
 │   ├── controllers/
 │   ├── middleware/
 │   ├── models/
@@ -83,20 +83,20 @@ cd TaskFlow
 Install frontend dependencies:
 
 ```bash
-cd client
+cd Frontend
 npm install
 ```
 
 Install backend dependencies:
 
 ```bash
-cd ../server
+cd ../backend
 npm install
 ```
 
 ### 3. Configure Environment Variables
 
-Create a `.env` file inside the `server` folder:
+Create a `.env` file inside the `backend` folder:
 
 ```env
 PORT=8000
@@ -109,7 +109,7 @@ Replace the values with your own MongoDB connection string and JWT secret.
 ### 4. Start the Backend
 
 ```bash
-cd server
+cd backend
 npm run dev
 ```
 
@@ -124,7 +124,7 @@ http://localhost:8000
 Open another terminal:
 
 ```bash
-cd client
+cd backend
 npm run dev
 ```
 

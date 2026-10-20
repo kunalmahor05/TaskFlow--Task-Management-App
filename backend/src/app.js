@@ -6,11 +6,6 @@ import notFound from "./middleware/NotFound.js";
 import errorHandler from "./middleware/errorHandler.js";
 const app = express();
 
-// app.use(cors({
-//     origin:["https://harsh-taskflow.vercel.app"],
-//     credentials:true
-// }));
-
 app.use(cors({
     origin: [
         "https://task-flow-task-management-app-two.vercel.app",
